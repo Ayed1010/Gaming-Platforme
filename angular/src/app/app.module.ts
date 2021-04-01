@@ -8,7 +8,7 @@ import { NumbredCardsComponent } from './home/numbred-cards/numbred-cards.compon
 import { ServicesCardsComponent } from './home/services-cards/services-cards.component';
 import { VideoComponent } from './home/video/video.component';
 import { InformationsCardsComponent } from './home/informations-cards/informations-cards.component';
-
+import { HttpClientModule }  from '@angular/common/http' ; 
 
 @NgModule({
   declarations: [
@@ -22,7 +22,8 @@ import { InformationsCardsComponent } from './home/informations-cards/informatio
  
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
