@@ -23,6 +23,7 @@ ngOnInit() {
   let x = "he" ; 
   this.GeolocationService.getData().subscribe((data)=> {
  
+    
     console.log(data.country)
   
   
