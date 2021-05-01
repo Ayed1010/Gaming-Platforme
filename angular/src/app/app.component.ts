@@ -12,10 +12,8 @@ import { TranslateService } from "@ngx-translate/core";
 })
 export class AppComponent implements OnInit{
   
- /* data:Array<any>*/
-      userLocation = 'hello' ; 
-      location : String = "MyLocation" ; 
-      
+ 
+   
 
 
  
@@ -25,33 +23,14 @@ export class AppComponent implements OnInit{
 
 constructor(private GeolocationService : GeolocationServiceService , private translate: TranslateService, private router: Router) {
   translate.setDefaultLang('ar');
-  this.geolocation() ;
- /* this.data= new Array<any>()*/
+ 
+
 }
 
 ngOnInit() {
   
- 
-   
-
-  
   this.topScrolling() ;
-
-
- 
-
- if( this.location == "Tunisia"|| this.location =="France" )    this.translate.use('fr');
-else  if( this.location== "katar"|| this.location=="Saudi Arabia" )    this.translate.use('ar');
-else this.translate.use('en');
-   
-
-
-
-
-
- 
- 
-
+  this.geolocation() ;
 
 }
 
@@ -59,31 +38,26 @@ else this.translate.use('en');
 
 topScrolling() {
 
-    this.router.events.subscribe((evt) => {
-      if (!(evt instanceof NavigationEnd)) {
+          this.router.events.subscribe((evt) => {
+          if (!(evt instanceof NavigationEnd)) {
           return;
-      }
-      window.scrollTo(0, 0)
-  }); }
+            }
+          window.scrollTo(0, 0)}); 
+              }
 
 
-  geolocation(){
+geolocation(){
 
-    this.GeolocationService.getData().subscribe((data)=> {
-      if( data.country == "Tunisia"|| data.country=="France" )    this.translate.use('ar');
-      else  if(data.country== "katar"|| data.country=="Saudi Arabia" )    this.translate.use('ar');
-      else this.translate.use('en');
-         
- console.log(data.country) 
- 
- 
-     
-  
-  
-  
-   })
-
-  }
+           this.GeolocationService.getData().subscribe((data)=> {
+           if( data.country == "Tunisia"|| data.country=="France" )    this.translate.use('fr');
+           else  if(data.country== "katar"|| data.country=="Saudi Arabia" )    this.translate.use('ar');
+           else this.translate.use('en');
+           console.log(data.country) ; })}
 
 
-}
+
+
+
+
+
+       }
