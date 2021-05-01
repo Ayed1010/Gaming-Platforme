@@ -1,0 +1,128 @@
+{
+    "navbar": {
+      "title": "page d'accueil",
+      "about": "à propos",
+      "services": "services",
+      "service1": "service 1",
+      "service2": "service 2 ",
+      "service3": "service 3 ",
+      "service4": "service 4 ",
+      "games": "jeux",
+      "contact": "contact",
+      "login": "Connexion",
+      "login_hint_text": "Connectez-vous à votre compte de médias sociaux",
+      "login_facebook": "Facebook (en)",
+      "login_twitter": "Twitter",
+      "login_or_seperator": "ou",
+      "login_placeholder_username": "nom d'utilisateur",
+      "login_placeholder_password": "mot de passe",
+      "login_form_footer": "Mot de passe oublié?",
+      "signup": "inscription",
+      "signup_hint_text": "Remplissez ce formulaire pour créer votre compte!",
+      "signup_placeholder_username": "nom d'utilisateur",
+      "signup_placeholder_password": "mot de passe",
+      "signup_placeholder_confirmpassword": "Confirmez le mot de passe",
+      "signup_accept": "J'accepte les",
+      "signup_terms": "Termes ",
+      "signup_condition": "Conditions"
+    },
+
+    "footer" : {
+        "menu": "Menu",
+        "home": "Accueil",
+        "about": "À propos",
+        "gaming": "Jeux",
+        "contact": "Contact",
+        "adress": "Adresse",
+        "phys_adress": "ISSAT Sousse, Ville Taffala, 4003 Sousse",
+        "country": "Tunisie",
+        "right": "Tous droits réservés.",
+        "yassine": "Abidi Taha Yassine",
+        "amer":" Kouki Amer",
+        "aymen": "Hammadi Aymen",
+        "ayed": "Bada Ayed"
+              
+
+   
+   },
+    "home" : {
+            "home1" :{
+              "title": "Texte centré verticalement",
+              "text": "Des classes push et pull ont été ajoutées pour modifier l'ordre sur le bureau tout en conservant l'image avant le texte sur mobile.",
+              "learn_more": "En savoir plus"
+            },
+              "numbred_cards" : {
+                "title": "Compteur Bootstrap 4",
+                "first": "Alimenté par l'application",
+                "second": "Appareils atteints",
+                "third": "Messages quotidiens",
+                "fourth": "Revenus"
+              },
+
+              "services_cards": {
+                "first": "Marché du reciblage",
+                "second": "Marketing numérique",
+                "third": "Techniques de référencement",
+                "fourth": "Gestion des clients",
+                "view_details": "Voir les détails"
+              },
+            
+             "video":{
+              "title": "Texte centré verticalement",
+              "text": "Des classes push et pull ont été ajoutées pour modifier l'ordre sur le bureau tout en conservant l'image avant le texte sur mobile.",
+              "learn_more": "En savoir plus"
+            }, 
+            "information_cards" : {
+              "read_more": "Lire la suite",
+              "first": "Modifier le contenu pour awsomenes",
+              "second": "Copier coller le HTML et le CSS.",
+              "third": "Modifier le contenu pour awsomenes",
+              "fourth": "Copier coller le HTML et le CSS."
+            } }, 
+             "contact" :{
+              "contact": "Contactez-nous",
+              "title": "Contactez-nous simplement. Nous serons ravis de répondre à vos questions.",
+              "info": "* Tous les champs sont obligatoires",
+              "name": "Nom",
+              "email": "E-mail",
+              "subject": "Objet",
+              "help": "comment puis-je vous aider?",
+              "products": "Produits",
+              "events": "Événements",
+              "press": "Appuyez sur",
+              "other": "Autre",
+              "message": "Messages",
+              "terms": "J'accepte les conditions d'utilisation",
+              "send": "Envoyer"
+            },
+            "about":  {
+              "title": "À propos de nous page",
+              "title_text": "Le succès n'est pas un hasard. C'est du travail acharné, de la persévérance, de l'apprentissage, des études, des sacrifices et, par-dessus tout, de l'amour de ce que vous faites ou apprenez à faire.",
+              "snipped": "Coupé par",
+              "pele": "Pele",
+              "mission_title": "Notre mission",
+              "mission_text": "Nous allons travailler sur le site de jeux vidéo pour le rendre plus performant et contenir plus de services que le joueur souhaite sur un seul site Web.",
+              "vision_title": "Notre vision",
+              "vision_text": "Être l'entreprise qui comprend et satisfait au mieux les produits, services et besoins d'auto-réalisation du joueur.",
+              "team_title": "Notre équipe",
+              "team_text": " Notre équipe dirige les développeurs Web et mobiles à travers des conférences, des blogs, de l'open source, des vidéos, des livres et des rencontres. Nous apprécions l'open source, l'apprentissage, le travail à distance et la communication ouverte",
+              "job": "Futur ingénieur",
+              "copyrights": "droits d'auteur Company.com All rights reserved."
+            }
+            
+
+
+
+
+
+
+
+               
+    
+                 
+    }        
+  
+
+
+
+  

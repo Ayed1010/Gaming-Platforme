@@ -1,0 +1,50 @@
+<div class="container">
+    <div class="row justify-content-center pt-5 mt-5 pb-5">
+      <div class="col-md-7">
+        <h1 class="display-4">{{'contact.contact'  | translate}} </h1>
+        <hr class="bg-success">
+        <p class="pb-0 mb-0"> {{'contact.title'  | translate}}</p>
+        <p class="text-muted small pt-0 mt-0">{{'contact.info'  | translate}} </p>
+        <form>
+          <div class="row form-group">
+              <label for="name" class="col-form-label col-md-4"> {{'contact.name'  | translate}}</label>
+              <div class="col-md-8">
+                <input type="text" name="name" id="name" class="form-control" required>
+              </div>
+            </div>
+         <div class="row form-group">
+            <label for="email" class="col-form-label col-md-4">{{'contact.email'  | translate}} </label>
+            <div class="col-md-8">
+              <input type="email" name="email" id="email" class="form-control" required>
+            </div>
+          </div>
+          <div class="row form-group">
+            <label for="options" class="col-form-label col-md-4">{{'contact.subject'  | translate}} </label>
+            <div class="col-md-8">
+              <select class="form-select form-control" required>
+                <option selected>{{'contact.help'  | translate}} </option>
+                <option value="products">{{'contact.products'  | translate}}</option>
+                <option value="events"> {{'contact.events'  | translate}}</option>
+                <option value="press">{{'contact.press'  | translate}}</option>
+                <option value="other">{{'contact.other'  | translate}} </option>
+              </select>
+            </div>
+          </div>
+          <div class="row form-group">
+            <label for="message" class="col-form-label col-md-4"> {{'contact.message'  | translate}}</label>
+            <div class="col-md-8">
+              <textarea name="message" id="message" class="form-control" rows="3" required></textarea>
+            </div>
+          </div>
+          <div class="row form-group form-check">
+            <label class="col-form-label form-check-label col-md-8">
+               <input class="form-check-input" type="checkbox" name="remember" required>{{'contact.terms'  | translate}}
+            </label>
+          </div>
+          <div class="d-flex justify-content-center pt-3 mt-3">
+            <button type="submit" class="btn btn-info btn-block btn-send"  > {{'contact.send'  | translate}}</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>

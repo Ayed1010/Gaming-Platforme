@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
+
 @Component({
   selector: 'app-video',
   templateUrl: './video.component.html',
@@ -7,9 +8,19 @@ import { Component, OnInit } from '@angular/core';
 })
 export class VideoComponent implements OnInit {
 
-  constructor() { }
+
+
+ 
+  
+
+  constructor(  ) { }
 
   ngOnInit(): void {
+   
+  
   }
+
+
+
 
 }

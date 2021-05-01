@@ -16,10 +16,18 @@
       "root": "",
       "sourceRoot": "src",
       "prefix": "app",
+
+     
+
+     
+
+
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
+           
+           
             "outputPath": "dist/angular",
             "index": "src/index.html",
             "main": "src/main.ts",
@@ -36,6 +44,7 @@
             "scripts": []
           },
           "configurations": {
+           
             "production": {
               "fileReplacements": [
                 {
@@ -63,6 +72,10 @@
                 }
               ]
             }
+
+
+
+          
           }
         },
         "serve": {
@@ -72,8 +85,10 @@
           },
           "configurations": {
             "production": {
-              "browserTarget": "angular:build:production"
+              "browserTarget": "angular:build:production"   
+             
             }
+           
           }
         },
         "extract-i18n": {
@@ -84,7 +99,8 @@
         },
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
-          "options": {
+          "options": { 
+             
             "main": "src/test.ts",
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.spec.json",

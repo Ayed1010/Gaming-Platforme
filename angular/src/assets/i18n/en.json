@@ -1,0 +1,132 @@
+        {
+        "navbar" :  {
+                "title":"Home",
+                "about":"About",
+                "services":"services",
+                "service1":"service 1",
+                "service2":"service 2 ",
+                "service3":"service 3 ",
+                "service4":"service 4 ",
+                "games":"Games",
+                "contact":"Contact",
+                "login":"Login",
+                "login_hint_text":"Sign in with your social media account",
+                "login_facebook":"Facebook",
+                "login_twitter":"Twitter",
+                "login_or_seperator":"or",
+                "login_placeholder_username":"Username",
+                "login_placeholder_password":"Password",
+                "login_form_footer":"Forgot Your password?",
+                "signup":"Sign up",
+                "signup_hint_text":"Fill in this form to create your account!",
+                "signup_placeholder_username":"Username",
+                "signup_placeholder_password":"Password",
+                "signup_placeholder_confirmpassword":"Confirm Password",
+                "signup_accept":"I accept the",
+                "signup_terms":"Terms ",
+                "signup_condition":"Conditions"
+        },
+
+        "footer" :  {
+                "menu" : "Menu",
+                "home":"Home",
+                "about":"About",
+                "gaming":"Gaming",
+                "contact":"Contact",
+                "adress":"Address",
+                "phys_adress" :"ISSAT Sousse,City Taffala,4003 Sousse" ,
+                "country" : " Tunisia",
+                "right": "All Rights Reserved.",
+                "yassine":" Abidi Taha Yassine" , 
+                "amer":" Kouki Amer",
+                "aymen": "Hammadi Aymen",
+                "ayed": "Bada Ayed"
+                
+
+       
+       },
+        "home" : {
+                "home1" : {
+                 "title":  "Vertically Centered Text" , 
+                 "text": "Push and pull classes were added to change the order on desktop but still have the image before the text on mobile." ,
+                 "learn_more": " Learn More" 
+                  },
+                  "numbred_cards" : {
+                        "title":  " Bootstrap 4 counter" , 
+                        "first": "App powered", 
+                        "second": "Devices reached" , 
+                        "third":"Dayly messages", 
+                        "fourth":"Revenue"
+                  },
+
+                  "services_cards": {
+                        "first": " Retargeting Market", 
+                        "second": "Digital Marketing" , 
+                        "third":"SEO Techniques", 
+                        "fourth":"Client Management",
+                        "view_details":"View Details"
+                 },
+                
+                 "video":{
+                         "title" :" Vertically Centered Text " ,
+                         "text" :" Push and pull classes were added to change the order on desktop but still have the image before the text on mobile." ,
+                         "learn_more": "Learn More" 
+
+
+                }, 
+                "information_cards" : {
+                     "read_more" : "Read More ", 
+                     "first": "Change around the content for awsomenes", 
+                     "second": "Copy paste the HTML and CSS." , 
+                     "third":"Change around the content for awsomenes", 
+                     "fourth":"Copy paste the HTML and CSS."
+                 } }, 
+                 "contact" : {
+
+                  "contact":"Contact us",
+                  "title":"Just get in contact with us. We are happy to answer your questions.",
+                  "info": "* All fields are required" , 
+                  "name":"Name" , 
+                  "email":"E-mail" , 
+                  "subject" :"Subject",
+                  "help": "how can i help you?" , 
+                  "products": "Products",
+                  "events":"Events" , 
+                  "press":"Press" ,
+                  "other":"Other",  
+                  "message":"Messages" ,
+                  "terms":" I agree to the Terms of Service" ,
+                  "send":"Send"  
+                },
+                "about":  {
+                   "title" :"About us page ",
+                   "title_text":"Success is no accident. It is hard work, perseverance, learning, studying, sacrifice and most of all, love of what you are doing or learning to do.",
+                   "snipped" :"Snipped by " , 
+                   "pele" :"Pele" ,
+                   "mission_title" :"Our Mission" , 
+                   "mission_text" :" we are going to work on  gaming website to make it more performant and contain more services which the player wants on a one website ." , 
+                   "vision_title" : "Our Vision", 
+                   "vision_text" :"To be company that best understands and satisfies the products, services and self-fulfillment needs of the gamer." , 
+                   "team_title": "Our Team " ,
+                   "team_text":"Our team leads web and mobile developers through conferences, blogs, open source, videos, books and meetups. We value open source, learning, remote work, and open communication", 
+                   "job": "Future Engineer",
+                   "copyrights" :"Copyrights Company.com All rights reserved."
+
+                }
+
+                
+
+
+
+
+
+
+
+                   
+        
+                     
+        }        
+      
+
+
+    

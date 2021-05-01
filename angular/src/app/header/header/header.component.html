@@ -9,27 +9,27 @@
     of nav links, forms, and other content for toggling -->
     <div id="navbarCollapse" class="collapse navbar-collapse">
         <ul class="nav navbar-nav" style="margin: 0 auto;">
-            <li class="nav-item"><a href="#" class="nav-link">Home</a>
+            <li class="nav-item"><a routerLink='/home' class="nav-link"  >{{'navbar.title' | translate }}</a>
             </li>
-            <li class="nav-item"><a href="#" class="nav-link">About</a>
+            <li class="nav-item" ><a routerLink= '/about-us' class="nav-link " >{{'navbar.about' | translate}} </a>
             </li>
-            <li class="dropdown nav-item">	<a data-toggle="dropdown" class="dropdown-toggle nav-link" href="#">Services <b class="caret"></b></a>
+            <li class="dropdown nav-item">	<a data-toggle="dropdown" class="dropdown-toggle nav-link" href="#" >{{'navbar.services'  | translate}} <b class="caret"></b></a>
                 <ul
                 class="dropdown-menu">
-                    <li class="dropdown-item"><a href="#">service 1 </a>
+                    <li class="dropdown-item"><a href="#" >{{'navbar.service1'  | translate}} </a>
                     </li>
-                    <li class="dropdown-item"><a href="#">service 2 </a>
+                    <li class="dropdown-item"><a href="#">{{'navbar.service2'  | translate}} </a>
                     </li>
-                    <li class="dropdown-item"><a href="#">service 3 </a>
+                    <li class="dropdown-item"><a href="#"> {{'navbar.service3' | translate}}</a>
                     </li>
-                    <li class="dropdown-item"><a href="#">service 4 </a>
+                    <li class="dropdown-item"><a href="#">{{'navbar.service4'  | translate}} </a>
                     </li>
         </ul>
         </li>
-        <li class="active nav-item"><a href="#" class="nav-link">Games</a>
+        <li class="active nav-item"><a href="#" class="nav-link">{{'navbar.games'  | translate}} </a>
         </li>
-       
-        <li class="nav-item"><a href="#" class="nav-link">Contact</a>
+        
+        <li class="nav-item"><a routerLink='/contact-us' class="nav-link">{{'navbar.contact'  | translate}} </a>
         </li>
         </ul>
         <form class="form-inline form-inline">
@@ -38,27 +38,27 @@
         <ul class="nav navbar-nav ml-auto">
 
             
-            <li class="nav-item">	<a data-toggle="dropdown" class="dropdown-toggle nav-link" href="#">Login</a>
+            <li class="nav-item">	<a data-toggle="dropdown" class="dropdown-toggle nav-link" href="#">{{'navbar.login'  | translate}}  </a>
               
                <ul
                 class="dropdown-menu form-wrapper">
                     <li class="dropdown-item">
                         <form action="/examples/actions/confirmation.php" method="post">
-                            <p class="hint-text">Sign in with your social media account</p>
-                            <div class="form-group social-btn clearfix">	<a href="#" class="btn btn-primary float-left"><i class="fa fa-facebook"></i> Facebook</a>
+                            <p class="hint-text">{{'navbar.login_hint_text'  | translate}} </p>
+                            <div class="form-group social-btn clearfix">	<a href="#" class="btn btn-primary float-left" ><i class="fa fa-facebook"></i>{{'navbar.login_facebook'  | translate}} </a>
                                 <a
-                                href="#" class="btn btn-info float-right"><i class="fa fa-twitter"></i> Twitter</a>
+                                href="#" class="btn btn-info float-right" ><i class="fa fa-twitter"></i>{{'navbar.login_twitter'  | translate}} </a>
                             </div>
-                            <div class="or-seperator"><b>or</b>
-                            </div>
-                            <div class="form-group">
-                                <input type="text" class="form-control" placeholder="Username" required="required">
+                            <div class="or-seperator"><b>{{'navbar.login_or_seperator'  | translate}} </b>
                             </div>
                             <div class="form-group">
-                                <input type="password" class="form-control" placeholder="Password" required="required">
+                                <input type="text" class="form-control" placeholder="{{'navbar.login_placeholder_username'  | translate  }} "  required="required">
                             </div>
-                            <input type="submit" class="btn btn-primary btn-block" value="Login">
-                            <div class="form-footer">	<a href="#">Forgot Your password?</a>
+                            <div class="form-group">
+                                <input type="password" class="form-control" placeholder="{{'navbar.login_placeholder_password'  | translate}} "     required="required">
+                            </div>
+                            <input type="submit" class="btn btn-primary btn-block" value="{{'navbar.login'  | translate}}"  >
+                            <div class="form-footer">	<a href="#">{{'navbar.login_form_footer'  | translate}} </a>
                             </div>
                         </form>
                     </li>
@@ -66,28 +66,29 @@
         </li>
      
          
-        <li class="nav-item">	<a href="#" data-toggle="dropdown" class="btn btn-primary dropdown-toggle get-started-btn mt-1 mb-1 nav-link">Sign up</a>
+        <li class="nav-item">	<a href="#" data-toggle="dropdown" class="btn btn-primary dropdown-toggle get-started-btn mt-1 mb-1 nav-link">{{'navbar.signup'  | translate }} </a>
             <ul
             class="dropdown-menu form-wrapper">
                <li class="dropdown-item">
                     <form >
-                        <p class="hint-text">Fill in this form to create your account!</p>
+                        <p class="hint-text">{{'navbar.signup_hint_text'  | translate}} </p>
                         <div class="form-group">
-                            <input type="text" class="form-control" placeholder="Username" required="required">
+                            <input type="text" class="form-control" placeholder="{{'navbar.signup_placeholder_username' | translate }} "  required="required">
                         </div>
                         <div class="form-group">
-                            <input type="password" class="form-control" placeholder="Password" required="required">
+                            <input type="password" class="form-control" placeholder="{{ 'navbar.signup_placeholder_password'  | translate }} " required="required">
                         </div>
                         <div class="form-group">
-                            <input type="password" class="form-control" placeholder="Confirm Password"
+                            <input type="password" class="form-control" placeholder="{{'navbar.signup_placeholder_confirmpassword' | translate }} "
                             required="required">
+
                         </div>
                         <div class="form-group">
                             <label class="form-check-inline">
-                                <input type="checkbox" required="required">I accept the <a href="#">Terms &amp; Conditions</a>
+                                <input type="checkbox" required="required">{{'navbar.signup_accept'  | translate}} <a href="#">{{ 'navbar.signup_terms'   | translate}} &amp;{{'navbar.signup_condition'  | translate}} </a>
                             </label>
                         </div>
-                        <input type="submit" class="btn btn-primary btn-block" value="Sign up">
+                        <input type="submit" class="btn btn-primary btn-block" value="{{'navbar.signup'  | translate }} "   >
                     </form>
                 </li>
                 </ul>
